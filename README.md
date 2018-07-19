@@ -17,25 +17,25 @@ $ ruby app.rb
 
 ## Arborescence du repository ultimate_townhall, et description des programmes
 
-'''
+```
 ultimate_townhall
-* ├── .gitignore
-* ├── README.md
-* ├── Gemfile
-* ├── Gemfile.lock
-* ├── app.rb
-* ├── db
-* │   └── townhalls.csv
-* └── lib
-*    ├── app
-*    │   ├── townhalls_scrapper.rb
-*    │   ├── townhalls_mailer.rb
-*    │   ├── townhalls_adder_to_db.rb
-*    │   └── townhalls_follower.rb
-*    └── views
-*        ├── done.rb
-*        └── index.rb
-'''
+ ├── .gitignore
+ ├── README.md
+ ├── Gemfile
+ ├── Gemfile.lock
+ ├── app.rb
+ ├── db
+ │   └── townhalls.csv
+ └── lib
+    ├── app
+    │   ├── townhalls_scrapper.rb
+    │   ├── townhalls_mailer.rb
+    │   ├── townhalls_adder_to_db.rb
+    │   └── townhalls_follower.rb
+    └── views
+        ├── done.rb
+        └── index.rb
+```
 
 ##### .gitignore
 Ce dossier comprends les fichiers dotenv dont seule la liste (sans détail) vous est accessible.
