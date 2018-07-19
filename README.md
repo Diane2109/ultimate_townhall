@@ -6,10 +6,10 @@ Et comme toi, nous avons -hier- décroché **un contrat à 300k€** pour une st
 Finaliser ce projet a nécessité plusieurs étapes de programmation, soit : la récupérations des coordonnées des mairies de 3 départements, l'envoie des mails à ces derniers, et le suivi sur Twitter des représentants de chacunes des communes visées.
 
 
-´´´
+```
 $ bundle install 
 $ ruby app.rb
-´´´
+```
 
 
 ## Arborescence du repository ultimate_townhall, et description des programmes
