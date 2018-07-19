@@ -19,22 +19,22 @@ $ ruby app.rb
 
 '''
 ultimate_townhall
-├── .gitignore
-├── README.md
-├── Gemfile
-├── Gemfile.lock
-├── app.rb
-├── db
-│   └── townhalls.csv
-└── lib
-    ├── app
-    │   ├── townhalls_scrapper.rb
-    │   ├── townhalls_mailer.rb
-    │   ├── townhalls_adder_to_db.rb
-    │   └── townhalls_follower.rb
-    └── views
-        ├── done.rb
-        └── index.rb
+* ├── .gitignore
+* ├── README.md
+* ├── Gemfile
+* ├── Gemfile.lock
+* ├── app.rb
+* ├── db
+* │   └── townhalls.csv
+* └── lib
+*    ├── app
+*    │   ├── townhalls_scrapper.rb
+*    │   ├── townhalls_mailer.rb
+*    │   ├── townhalls_adder_to_db.rb
+*    │   └── townhalls_follower.rb
+*    └── views
+*        ├── done.rb
+*        └── index.rb
 '''
 
 ##### .gitignore
@@ -46,7 +46,7 @@ Ce fichier recence tous les Gem qui ont été utilisés pour mener à bien la mi
 ruby gem 2.5.1, nokogiri, open-uri, json, dotenv, gmail, twitter.
 
 #### **LE DOSSIER LIB**
-####*Comprend le dossier App qui inclut chacun des programmes:*
+#### *Comprend le dossier App qui inclut chacun des programmes:*
 **Le programme townhalls_scrapper.rb**
 Permet la création d'un tableau (array) reprenant le nom des villes, leur code postal et leur contact mail à partir de la page http://annuaire-des-mairies.com/. Ces données sont enfin enregistrées sur un fichier .json.
 Les Gems utilisés : 'rubygems'/'nokogiri'/'open-uri'/'json' 
@@ -63,7 +63,7 @@ Les Gems utilisés : 'json'/'twitter'/ 'dotenv'
 Ce programme permet de récupérer les identifiants précèdemment stockés sur le fichier .json (cf townhalls_scrapper.rb). Puis à travers l'applicatif Twitter, envoie une commande permettant de follow chacun de ces ID. 
 Les Gems utilisés : 'json'/'twitter'/ 'dotenv'
 
-####*Comprend le dossier Views qui inclut les programmes done et index:*
+#### *Comprend le dossier Views qui inclut les programmes done et index:*
 **Le programme done**
 Ce programme se lance lorsque vous souhaitez sortir du programme en tapant 4 et vous souhaitera une agréable journée.
 
