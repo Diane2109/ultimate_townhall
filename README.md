@@ -1,18 +1,15 @@
 # Scrapp! Mail! Follow!
 
-Bonjour, nous sommes l'équipe parisienne des Sixters @Diane @Asmahane @Garance @Perrine F @Clyde...
+Bonjour, nous sommes l'équipe parisienne des Sixters @Diane @Asmahane @Garance @Perrine et @Clyde...
 Et comme toi, nous avons -hier- décroché **un contrat à 300k€** pour une startup qui s'appelle The Hacking Project, la mission nous a été présentée comme suit: 
 "Veuillez envoyer un email à toutes les mairies de trois départements de votre choix et de leur dire qu'ils devraient monter un groupe THP dans leur commune". 
-Finaliser ce projet a nécessité plusieurs étapes de programmation, soit : la récupérations des coordonnées des mairies de 3 départements, l'envoie des mails à ces derniers, et le suivi des sur Twitter des représentants de chacunes des communes visées.
+Finaliser ce projet a nécessité plusieurs étapes de programmation, soit : la récupérations des coordonnées des mairies de 3 départements, l'envoie des mails à ces derniers, et le suivi sur Twitter des représentants de chacunes des communes visées.
 
 
-Veuillez télécharger le dossier, 
-vous positionner à la racine avec votre terminal, 
-lancer un bundle install 
-et profitez des joies de notre programme 
-en lançant la commande 
+´´´
+$ bundle install 
 $ ruby app.rb
-
+´´´
 
 
 ## Arborescence du repository ultimate_townhall, et description des programmes
@@ -71,7 +68,7 @@ Ce programme se lance lorsque vous souhaitez sortir du programme en tapant 4 et 
 Ce programme lance le sommaire de notre programme, vous pourrez voir les différents choix qui s'offrent à vous.
 
 ## Comment se servir du programme, et quelles sont les gems utilisées
-Pour se servir du programme il suffit, comme-dit précédemment lancez un bundle install et lancez simplement dans votre terminal le fichier app.rb, les gems utilisées sont listées dans le fichier Gemfile.
+Pour se servir du programme il suffit, de cloner le dossier sur votre pc, lancer un  $ bundle install, et profitez des joies de notre programme en lançant la commande $ ruby app.rb. Les gems utilisées sont listées dans le fichier Gemfile.
 
 ## Ce qui a été fait : l'email envoyé, le nombre de mairies touchées, le handle Twitter qui a été utilisé
 
